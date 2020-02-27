@@ -1,0 +1,51 @@
+[
+    {
+        "name": "collectionAll",
+        "policy": "OR('Org1MSP.member', 'Org2MSP.member', 'Org3MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 1000000
+    },
+    {
+        "name": "collectionPrivateOrg1",
+        "policy": "OR('Org1MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 5
+    },
+    {
+        "name": "collectionPrivateOrg2",
+        "policy": "OR('Org2MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 5
+    },
+    {
+        "name": "collectionPrivateOrg3",
+        "policy": "OR('Org3MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 5
+    },
+    {
+        "name": "collectionOrg12",
+        "policy": "OR('Org1MSP.member', 'Org2MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 1000000
+    },
+    {
+        "name": "collectionOrg13",
+        "policy": "OR('Org1MSP.member', 'Org3MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 1000000
+    },
+    {
+        "name": "collectionOrg23",
+        "policy": "OR('Org2MSP.member', 'Org3MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 3,
+        "blockToLive": 1000000
+    }
+]

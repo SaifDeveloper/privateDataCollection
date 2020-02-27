@@ -1,0 +1,16 @@
+[
+    {
+    "name": "SumIntCollection",
+    "policy": "OR('SummitMSP.admin', 'IntellectMSP.admin')",
+    "requiredPeerCount": 0,
+    "maxPeerCount": 3,
+    "blockToLive":1000000
+    },
+    {
+    "name": "SumGenCollection",
+    "policy": "OR('SummitMSP.admin','GenesisMSP.admin')",
+    "requiredPeerCount": 0,
+    "maxPeerCount": 3,
+    "blockToLive":1
+    }
+]
